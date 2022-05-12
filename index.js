@@ -76,7 +76,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
                 <h3>Interesting bits</h3>
                 <p>This page loads its content depending on the query parameters it recieves. It converts the value into a hash and compares it with the correct hash, and then populates the page with the correct content if the hashes match.</p>
-                <p>The hash function used is <strong>cyrb53</strong>, taken from an <a href="https://stackoverflow.com/a/52171480">StackOverflow answer</a>.</p>
+                <p>The hash function used is <strong>cyrb53</strong>, taken from a <a href="https://stackoverflow.com/a/52171480">StackOverflow answer</a>.</p>
                 <p>This method allows me to directly insert JavaScript functions and values into the HTML markup, as it is loaded into <code>innerHTML</code> as a string.</p>
             </details>
 
