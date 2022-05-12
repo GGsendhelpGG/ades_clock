@@ -80,8 +80,6 @@ window.addEventListener("DOMContentLoaded", function () {
                 <p>This method allows me to directly insert JavaScript functions and values into the HTML markup, as it is loaded into <code>innerHTML</code> as a string.</p>
             </details>
 
-            <br />
-
             <div class="buttons">
                 <a class="button" href="https://github.com/jcjc21/clok" target="_blank">GitHub</a>
             </div>
