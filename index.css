@@ -312,6 +312,6 @@ details {
 	margin: 1.5rem 0;
 }
 
-details:last-of-type {
+details:last-child {
 	margin-bottom: 0;
 }
