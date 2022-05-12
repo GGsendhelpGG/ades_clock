@@ -36,35 +36,35 @@ window.addEventListener("DOMContentLoaded", function () {
                 </thead>
                 <tbody>
                     <tr tabindex=0>
-                        <td>now()</td>
+                        <td>Date.now()</td>
                         <td><span id="clok">${Date.now()}</span></td>
                     </tr>
                     <tr tabindex=0>
-                        <td>toLocaleString()</td>
+                        <td>Date.toLocaleString()</td>
                         <td><span id="clok">${new Date().toLocaleString()}</span></td>
                     </tr>
                     <tr tabindex=0>
-                        <td>toISOString()</td>
+                        <td>Date.toISOString()</td>
                         <td><span id="clok">${new Date().toISOString()}</span></td>
                     </tr>
                     <tr tabindex=0>
-                        <td>getDate()</td>
+                        <td>Date.getDate()</td>
                         <td><span id="clok">${new Date().getDate()}</span></td>
                     </tr>
                     <tr tabindex=0>
-                        <td>getDay()</td>
+                        <td>Date.getDay()</td>
                         <td><span id="clok">${new Date().getDay()}</span></td>
                     </tr>
                     <tr tabindex=0>
-                        <td>getMonth()</td>
+                        <td>Date.getMonth()</td>
                         <td><span id="clok">${new Date().getMonth()}</span></td>
                     </tr>
                     <tr tabindex=0>
-                        <td>getFullYear()</td>
+                        <td>Date.getFullYear()</td>
                         <td><span id="clok">${new Date().getFullYear()}</span></td>
                     </tr>
                     <tr tabindex=0>
-                        <td>getTimezoneOffset()</td>
+                        <td>Date.getTimezoneOffset()</td>
                         <td><span id="clok">${new Date().getTimezoneOffset()}</span></td>
                     </tr>
                 </tbody>
