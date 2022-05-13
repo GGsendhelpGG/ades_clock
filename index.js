@@ -21,10 +21,10 @@ const cyrb53 = function (str, seed = 0) {
 
 window.addEventListener("DOMContentLoaded", function () {
 	if (id != null && cyrb53(id) + "" === "8461277072213326") {
-        document.title = "clok";
+        document.title = "ades_Clock";
 
 		document.body.innerHTML = `
-            <h1>clok</h1>
+            <h1>clock</h1>
             <p class="subtitle">jcjc21 / clok</p>
 
             <table>
@@ -43,46 +43,8 @@ window.addEventListener("DOMContentLoaded", function () {
                         <td>Date.toLocaleString()</td>
                         <td><span id="clok">${new Date().toLocaleString()}</span></td>
                     </tr>
-                    <tr tabindex=0>
-                        <td>Date.toISOString()</td>
-                        <td><span id="clok">${new Date().toISOString()}</span></td>
-                    </tr>
-                    <tr tabindex=0>
-                        <td>Date.getDate()</td>
-                        <td><span id="clok">${new Date().getDate()}</span></td>
-                    </tr>
-                    <tr tabindex=0>
-                        <td>Date.getDay()</td>
-                        <td><span id="clok">${new Date().getDay()}</span></td>
-                    </tr>
-                    <tr tabindex=0>
-                        <td>Date.getMonth()</td>
-                        <td><span id="clok">${new Date().getMonth()}</span></td>
-                    </tr>
-                    <tr tabindex=0>
-                        <td>Date.getFullYear()</td>
-                        <td><span id="clok">${new Date().getFullYear()}</span></td>
-                    </tr>
-                    <tr tabindex=0>
-                        <td>Date.getTimezoneOffset()</td>
-                        <td><span id="clok">${new Date().getTimezoneOffset()}</span></td>
-                    </tr>
                 </tbody>
             </table>
-
-            <details>
-                <h3>How?</h3>
-                <p>Open Inspector and take a peek at <code>index.js</code>.</p>
-
-                <h3>Interesting bits</h3>
-                <p>This page loads its content depending on the query parameters it recieves. It converts the value into a hash and compares it with the correct hash, and then populates the page with the correct content if the hashes match.</p>
-                <p>The hash function used is <strong>cyrb53</strong>, taken from a <a href="https://stackoverflow.com/a/52171480">StackOverflow answer</a>.</p>
-                <p>This method allows me to directly insert JavaScript functions and values into the HTML markup, as it is loaded into <code>innerHTML</code> as a string.</p>
-            </details>
-
-            <div class="buttons">
-                <a class="button" href="https://github.com/jcjc21/clok" target="_blank">GitHub</a>
-            </div>
         `;
 	}
 });
