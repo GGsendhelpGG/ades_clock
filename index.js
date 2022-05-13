@@ -25,8 +25,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
 		document.body.innerHTML = `
             <h1>clock</h1>
-            <p class="subtitle">jcjc21 / clok</p>
-
             <table>
                 <thead>
                     <tr>
